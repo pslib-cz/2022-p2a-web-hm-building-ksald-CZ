@@ -24,7 +24,7 @@ html{
 }
 .Header-title{
 
-    /*color: #fff;*/
+    
     text-align: center;
 }
 .r{
@@ -39,11 +39,13 @@ html{
 }
 .btn{
     padding: 12px 40px;
-    font-family: 'Inter';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;   
+    line-height: 17px;
+    text-decoration: none;
+
 }
 .btn-outlined{
     color: #EB6C27;
@@ -51,7 +53,7 @@ html{
     border: 1px dashed #EB6C27;
 }
 .text{
-    font-family: 'Inter';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -59,7 +61,7 @@ html{
     color: #3a3a3a;
 }
 .text-bold{
-    font-family: 'Inter';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;   
     font-size: 14px;
@@ -77,4 +79,7 @@ html{
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
+}
+.btn-pri{
+    color: #FFFFFF;
 }
