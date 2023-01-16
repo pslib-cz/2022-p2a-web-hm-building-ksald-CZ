@@ -1,5 +1,73 @@
+html{
+    font-family: 'Open Sans';
+    font-style: normal;
+}
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;    
+}
+.nav-icontext{
+    margin: 0;
+    text-align: center;
+}
+.Header{
+    background: url(/media/pageheader-1920w.jpg);
+    height: 269px;
+    top:0px;
+}
+.imgresponsive{
+    width: 100%;
+    display:block;
+    margin:0;
+    padding:0;
+}
+.Header-title{
+
+    /*color: #fff;*/
+    text-align: center;
+}
+.r{
+    border-radius: 0px 0px 40px 0px;
+}
+.services-img{
+    height: 134px;
+}
+.nav-logo{
+    width: 127px;
+    height: 44px;   
+}
+.btn{
+    padding: 12px 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;   
+}
+.btn-outlined{
+    color: #EB6C27;
+    background: #FFFFFF;
+    border: 1px dashed #EB6C27;
+}
+.text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3a3a3a;
+}
+.text-bold{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 14px;
+    line-height: 17px;  
+}
+.l{
+    border-radius: 0px 0px 0px 40px;
+}
+.service{
+    padding: 1.5em .5em;
 }
