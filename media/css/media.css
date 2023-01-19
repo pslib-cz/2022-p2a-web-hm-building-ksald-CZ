@@ -1,0 +1,377 @@
+@media (min-width: 750px) {
+    
+    header.header{ 
+        width: 100%;
+    }
+
+    .active {
+        background-color: #EB6C27;
+        color: white;
+        font-weight: 700;
+    }
+
+    .gallery h2 {
+        font-size: 3.5em;
+    }
+
+    .reference__item {
+        position: relative;
+        transition: background-position 1s;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: all 1s;
+        background-color: rgba(235, 108, 39, 0.85);
+      }
+
+    .reference__item:hover .overlay {
+        opacity: 1;
+      }
+
+
+      .map__overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        transition: all 1s;
+        background-color: rgba(235, 108, 39, 0.75);
+      }
+
+
+    .grid__map {
+        position: relative;
+        transition: background-position 1s;
+    }
+      
+    .overlay__text--h3 {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 35%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .overlay__text--p {
+        color: white;
+        font-size: 1em;
+        font-weight: 300;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .confidence {
+        min-height: 10vh;
+    }
+
+    .services__item--header {
+        margin: 5em 1.5em;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .aboutus ul {
+        margin-left: 5em;
+    }
+    
+
+    .services__item--header {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 2em;
+    }
+
+    .services {
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .services__item--image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 15em;
+    }
+    
+    .page_header.page_header.page_header--big {
+        min-height: 77vh;
+    }
+    .reference {
+        margin-top: 5em;
+        margin-bottom: 5em;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .confidence__content {
+        min-height: 10em;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+
+     .reference .reference__item--header p {
+        max-width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .reference .reference__item--header h2 {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .reference__item--header {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .reference .button {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .page_header.page_header--big {
+        min-height: 45vh;
+    }
+    
+    .page_header__title {
+        font-size: 4em;
+    }
+    .page_header__title--description {
+        font-size: 2em;
+    }
+
+    footer h2 {
+        font-size: 3em;
+    }
+
+    .page_header .button {
+        display: block;
+    }
+
+    .gallery__grid {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gallery {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .gallery__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery {
+        margin-bottom: 10em;
+        text-align: center;
+    }    
+
+    .aboutus h2 {
+        font-size: 3em;
+        margin-bottom: 1.5em;
+        text-align: center;
+    }
+
+    .page_header.page_header--notmobile {
+        display: block;
+    }
+
+    p.text_centered {
+        text-align: center;
+        margin-bottom: 7em;
+    }
+
+    .page_header {
+        background-image:
+        linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
+        url(/media/img/pageheader1200.jpg);
+    }
+
+    .image1 {
+        background-image:
+        url(/media/img/sluzba-novostavby-1200w.jpg);
+    }
+    
+    .image2 {
+        background-image:
+        url(/media/img/sluzbaprumyslove1200.jpg);
+    }
+    
+    .image3 {
+        background-image:
+        url(/media/img/sluzbarekonstrukce1200.jpg);
+    }
+    
+    .image4 {
+        background-image:
+        url(/media/img/sluzbakomunikace1200.jpg);
+    }
+    .confidence {
+        background-image:
+        linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)),
+        url(/media/img/cta1200.jpg);
+    }
+}
+
+
+@media (min-width: 1150px) { 
+    .aboutus ul {
+        margin-left: 7em;
+    }
+    .services__item--image {
+        min-height: 20em;
+    }
+
+    .button--hover:hover {
+        background-color: #ce591a;
+        color: white;
+    }
+
+    .gallery__grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .confidence {
+        background-image:
+        linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)),
+        url(/media/img/cta1920.jpg);
+    }
+
+    .page_header.page_header.page_header--big {
+        min-height: 83vh;
+    }
+
+    .grid {
+        display: grid;
+        
+        align-items: center;
+        grid-template-columns: 10em 0.5fr 1fr;
+        grid-template-areas:
+        ". contacts map"
+        ". form . ";
+        width: 100%;
+    }
+
+
+
+    .aboutus__content.aboutus__content--width100 {
+        max-width: unset;
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1600px) { 
+    header.header{ 
+        position: absolute;
+        background-color: white;
+        width: unset;
+        top: 3%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .page_header .button {
+        margin-bottom: 5em;
+    }
+
+    .confidence {
+        min-height: 25vh;
+    }
+    .confidence__content {
+        margin-top: 3em;
+    }
+
+    .page_header__title {
+        font-size: 7em;
+    }
+
+    .page_header__title--description{
+        font-size: 3em;
+    }
+
+    .page_header {
+        background-image:
+        linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
+        url(/media/img/pageheader-1920w.jpg);
+    }
+
+    .image2 {
+        background-image:
+        url(/media/img/sluzba-prumyslove-stavby-1920w.jpg);
+    }
+    
+    .image3 {
+        background-image:
+        url(/media/img/sluzba-rekonstrukce-1920w.jpg);
+    }
+    .page_header.page_header.page_header--big {
+        min-height: 95vh;
+    }
+}
+
+@media (min-width: 1600px) { 
+    .page_header {
+        background-image:
+        linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
+        url(/media/img/pageheader-3100w.jpg);
+    }
+
+    .services__item--header {
+        letter-spacing: 1px;
+    }
+    .services__item h2{
+        font-size: 2em;
+    }
+
+    .confidence {
+        min-height: 40vh;
+        font-size: 2em;
+        line-height: 15px;
+    }    
+    .confidence .button {
+        padding: 1.5em;
+        margin-top: 3em;
+    }
+
+    .reference__item.reference__item--header h2{
+        font-size: 3.5em;
+        margin-bottom: 1em;
+    }
+}

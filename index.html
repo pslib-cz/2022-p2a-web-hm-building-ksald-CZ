@@ -5,25 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="styleSheet" href="./media/css/nomalize.css">
+    <link rel="stylesheet" href="./media/css/main.css">
+    <link rel="stylesheet" href="./media/css/media_photos.css">
+    <link rel="stylesheet" href="./media/css/media_navbar.css">
+    <link rel="stylesheet" href="./media/css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="styleSheet"href="./media/css/layout.css">
     <title>HM Building</title>
 </head>
 <body>
     
     <header class="header">
         <div class="logo">
-            <a href=".index.html" class="">
-                <img src="./media/logo.png" alt="logo"></img>
-            </a>
+            <a href="./index.html">
+                <img src="/media/img/logo.png" alt="logo"></img>
+            </a>    
         </div>
-        <div class="nav">
-            <input type="checkbox" class="nav-togle" >
-            <p class="nav-icontext">menu</p>
+        <div class="navigation">
+            <input type="checkbox" class="toggle-menu">
+            <p class="hamburger_description">MENU</p>
             <div class="hamburger"></div>
             <ul class="menu">
                 <div class="arrow_up"></div>
-                <li><a class="active" href="./index.html"></a></li>
+                <li><a class="active" href="./index.html">DOMŮ</a></li>
                 <li><a href="./index.html#services">SLUŽBY</a></li>
                 <li><a href="./reference.html">REFERENCE</a></li>
                 <li><a href="./onas.html">O NÁS</a></li>
@@ -32,12 +37,12 @@
         </div>
     </header>
 
-    <header class="Page_Header">
+    <header class="page_header page_header--big">
         <p class="page_header__title">HM Building.cz s.r.o</p>
         <p class="page_header__title page_header__title--description">liberecká stavební společnost</p>
         <a class="button button--orange button--hover" href="./index.html#services">pokračovat<i class="arrow down"></i></a>
     </header>
-    <div class="serices">
+    <div class="serices" id="serices">
         <div class="services__item services__item--header">
             <h2>Využijte škálu našich <span>služeb</span></h2>
                 <p>Ačkoliv provádíme především <b>průmyslové stavby</b>, není pro nás problém postavit Vám <b>rodinný domek na klíč</b>, nebo jen hrubou stavbu. Nejsou nám cizí ani <b>rekonstrukce budov</b> a jejich údržba a to včetně okolních ploch.</p>
@@ -88,7 +93,7 @@
         </div>
         <a href="./reference.html">
             <div class="reference__item">
-                <img class="item__image" src="" alt="Hasičárna">
+                <img class="item__image" src="/media/img/reference-hasicska-zbrojnice-600w.jpg" alt="Hasičárna">
                 <div class="overlay">
                     <h3 class="overlay__text--h3">Hasičská zbrojnice</h3>
                     <p class="overlay__text--p">celková konstrukce</p>
@@ -97,7 +102,7 @@
         </a>
         <a href="./reference.html">
             <div class="reference__item">
-                <img class="item__image" src="" alt="Prádelna">
+                <img class="item__image" src="/media/img/reference-pradelna-600w.jpg" alt="Prádelna">
                 <div class="overlay">
                     <h3 class="overlay__text--h3">Samoobslužná prádelna</h3>
                     <p class="overlay__text--p">stavební úpravy a opravy</p>
@@ -106,7 +111,7 @@
         </a>
         <a href="./reference.html">
             <div class="reference__item">
-                <img class="item__image" src="" alt="Dlažba">
+                <img class="item__image" src="/media/img/reference-plocha-600w.jpg" alt="Dlažba">
                 <div class="overlay">
                     <h3 class="overlay__text--h3">Venkovní plochy Restyl</h3>
                     <p class="overlay__text--p">provedení venkovních ploch</p>
