@@ -219,32 +219,32 @@
     .page_header {
         background-image:
         linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
-        url(./media/img/pageheader1200.jpg);
+        url(/media/img/pageheader1200.jpg);
     }
 
     .image1 {
         background-image:
-        url(./media/img/sluzba-novostavby-1200w.jpg);
+        url(/media/img/sluzba-novostavby-1200w.jpg);
     }
     
     .image2 {
         background-image:
-        url(./media/img/sluzbaprumyslove1200.jpg);
+        url(/media/img/sluzbaprumyslove1200.jpg);
     }
     
     .image3 {
         background-image:
-        url(./media/img/sluzbarekonstrukce1200.jpg);
+        url(/media/img/sluzbarekonstrukce1200.jpg);
     }
     
     .image4 {
         background-image:
-        url(./media/img/sluzbakomunikace1200.jpg);
+        url(/media/img/sluzbakomunikace1200.jpg);
     }
     .confidence {
         background-image:
         linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)),
-        url(./media/img/cta1200.jpg);
+        url(/media/img/cta1200.jpg);
     }
 }
 
@@ -269,7 +269,7 @@
     .confidence {
         background-image:
         linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)),
-        url(./media/img/cta1920.jpg);
+        url(/media/img/cta1920.jpg);
     }
 
     .page_header.page_header.page_header--big {
@@ -329,17 +329,17 @@
     .page_header {
         background-image:
         linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
-        url(./media/img/pageheader-1920w.jpg);
+        url(/media/img/pageheader-1920w.jpg);
     }
 
     .image2 {
         background-image:
-        url(./media/img/sluzba-prumyslove-stavby-1920w.jpg);
+        url(/media/img/sluzba-prumyslove-stavby-1920w.jpg);
     }
     
     .image3 {
         background-image:
-        url(./media/img/sluzba-rekonstrukce-1920w.jpg);
+        url(/media/img/sluzba-rekonstrukce-1920w.jpg);
     }
     .page_header.page_header.page_header--big {
         min-height: 95vh;
@@ -350,7 +350,7 @@
     .page_header {
         background-image:
         linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
-        url(./media/img/pageheader-3100w.jpg);
+        url(/media/img/pageheader-3100w.jpg);
     }
 
     .services__item--header {

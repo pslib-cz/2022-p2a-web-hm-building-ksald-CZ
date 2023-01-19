@@ -161,7 +161,7 @@ header.header {
 .page_header{
     background-image:
     linear-gradient(to bottom, rgba(36, 36, 36, 0.52), rgba(36, 36, 36, 0.73)),
-    url(./media/img/pageheader720w.jpg);
+    url(/media/img/pageheader720w.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -260,22 +260,22 @@ transform: rotate(45deg);
 
 .image1 {
     background-image:
-    url(./media/img/sluzbanovostavby720.jpg);
+    url(/media/img/sluzbanovostavby720.jpg);
 }
 
 .image2 {
     background-image:
-    url(./media/img/sluzbaprumyslove720.jpg);
+    url(/media/img/sluzbaprumyslove720.jpg);
 }
 
 .image3 {
     background-image:
-    url(./media/img/sluzbarekonstrukce720.jpg);
+    url(/media/img/sluzbarekonstrukce720.jpg);
 }
 
 .image4 {
     background-image:
-    url(./media/img/sluzbakomunikace720.jpg);
+    url(/media/img/sluzbakomunikace720.jpg);
 }
 
 
@@ -335,7 +335,7 @@ transform: rotate(45deg);
 .confidence {
     background-image:
     linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)),
-    url(./media/img/cta720.jpg);
+    url(/media/img/cta720.jpg);
     background-repeat: no-repeat;
     font-weight: 700;
     background-position: center;
@@ -592,14 +592,14 @@ input[type=text], select, textarea {
 }
 
 .icon_dot--phone::before {
-    content: url("./media/img/local_phone_24px.svg");
+    content: url("/media/img/local_phone_24px.svg");
     position: absolute;
     left: -45px;
     z-index: 999;
 }
 
 .icon_dot--mail::before {
-    content: url("./media/img/mail_24px.svg");
+    content: url("/media/img/mail_24px.svg");
     position: absolute;
     left: -45px;
     z-index: 999;
@@ -614,7 +614,7 @@ input[type=text], select, textarea {
 }
 
 .icon_dot--position::before {
-    content: url("./media/img/room_24px.svg");
+    content: url("/media/img/room_24px.svg");
     position: absolute;
     left: -42px;
     z-index: 999;
