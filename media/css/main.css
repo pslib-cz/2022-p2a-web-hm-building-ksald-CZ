@@ -95,7 +95,6 @@ header.header {
     background:#EB6C27;
     cursor: pointer;
     z-index: 2;
-    transition: 0.3s;
     
 }
 
@@ -104,9 +103,8 @@ header.header {
     position: absolute;
     width: 46px;
     height: 8px;
-    background: linear-gradient(90deg, #EB6C27 0%, #FFBE9A 100%);
+    background:#EB6C27;
     right: 0;
-    transition: 0.3s;
 }
 
 .hamburger:after{
@@ -130,22 +128,6 @@ header.header {
 
 .hamburger, .toggle-menu {
     display: none;
-}
-
-.navigation input:checked ~ .hamburger{
-    background: transparent;
-}
-
-.navigation input:checked ~ .hamburger:before {
-    top: 0;
-    transform: rotate(-45deg);
-    width: 30px;
-}
-
-.navigation input:checked ~ .hamburger:after {
-    top: 0;
-    transform: rotate(45deg);
-    width: 30px;
 }
 
 .navigation input:checked ~ .menu {
@@ -442,6 +424,7 @@ transform: rotate(45deg);
 
 .aboutus__content li {
     line-height: 1.15;
+    list-style-type: disc;
 }
 
 .aboutus li::marker{
