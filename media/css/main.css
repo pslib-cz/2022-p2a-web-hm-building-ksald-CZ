@@ -88,24 +88,10 @@ header.header {
 }
 
 .hamburger {
-    margin-right: 1.5em;
-    position: relative;
-    width: 46px;
-    height: 8px;
-    background:#EB6C27;
-    cursor: pointer;
-    z-index: 2;
-    
+ 
 }
 
-.hamburger:before, .hamburger:after{
-    content: "";
-    position: absolute;
-    width: 46px;
-    height: 8px;
-    background:#EB6C27;
-    right: 0;
-}
+
 
 .hamburger:after{
     top: 13px;
