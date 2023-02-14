@@ -1,6 +1,7 @@
-const hamburgerMenu = document.querySelector('.hamburger');
-const menu = document.querySelector('navbar__menu');
-
-hamburgerMenu.addEventListener('click', () => {
-    menu.classList.toggle('visible');
-});
+window.onclick = (event) => {
+    if (event.target.matches('.Navbar__Hamburger')) {
+        document.querySelector('.Navbar__Menu').classList.toggle("Visible");
+    } else {
+        document.querySelector('.Navbar__Menu').classList.remove("Visible");
+    }
+}

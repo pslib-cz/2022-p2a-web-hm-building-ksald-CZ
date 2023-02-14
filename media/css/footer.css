@@ -1,0 +1,21 @@
+.footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1.5em;
+  }
+  
+.page {
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.page > div {
+    flex-grow: 1;
+  }
+  
+.footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
