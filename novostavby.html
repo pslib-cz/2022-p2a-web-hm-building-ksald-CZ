@@ -4,62 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./media/css/normalize.css">
-    <link rel="stylesheet" href="./media/css/main.css">
-    <link rel="stylesheet" href="./media/css/media_photos.css">
-    <link rel="stylesheet" href="./media/css/media_navbar.css">
-    <link rel="stylesheet" href="./media/css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>HM Building</title>
+    <link href="./media/css/style.css" rel="stylesheet">
+    <title>HM Building | Novostavby</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="./index.html">
-                <img src="./media/img/logo.png" alt="">
-            </a>
+    <div class="page">
+        <div>
+            <header class="header header--low">
+                <nav class="navbar">
+                    <a href="./index.html">
+                        <img width="143" height="50" src="./media/img/logo.png">
+                    </a>
+                    <div class="hamburger">
+                        <span>MENU</span>
+                        <img width="47" height="35" src="./media/img/lines.svg">
+                    </div>
+                    <menu class="navbar__menu">
+                        <li class="nav__item"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
+                        <li class="nav__item nav__item--active"><a class="nav__item__link" href="./index.html#sluzby">SLUŽBY</a></li>
+                        <li class="nav__item"><a class="nav__item__link" href="./reference.html">REFERENCE</a></li>
+                        <li class="nav__item"><a class="nav__item__link" href="./onas.html">O NÁS</a></li>
+                        <li class="nav__item"><a class="nav__item__link" href="./kontakt.html">KONTAKT</a></li>
+                    </menu>
+                </nav>
+            </header>
+            <section class="section">
+                <div class="section__header">
+                    <h1 class="section__title">Novostavby</h1>
+                </div>
+                <div class="section__content">
+                    <p>Dle požadavků investora jsme schopní dodat <span class="text--bold">kompletní stavbu na klíč</span>, případně zhotovit ucelenou část. Jsme schopni zajistit také <span class="text--bold">projektovou dokumentaci</span>. Provádíme <span class="text--bold">stavby jak průmyslového typu</span>, tak <span class="text--bold">rodinné stavby</span>. Stavba je prováděna dle projektové dokumentace dodané investorem 
+                        a v rozsahu dle smlouvy o dílo, která obsahuje jasně definované ceny dle položkového rozpočtu.</p>
+                      <ul class="list">
+                        <li class="marker--primary">zemní práce</li>
+                        <li class="marker--primary">základové konstrukce</li>
+                        <li class="marker--primary">zděné konstrukce</li>
+                        <li class="marker--primary">montované konstrukce</li>
+                        <li class="marker--primary">úpravy povrchů</li>
+                        <li class="marker--primary">střešní konstrukce</li>
+                      </ul>
+                </div>
+            </section>
         </div>
-
-        <nav class="navigation">
-            <input type="checkbox" class="toggle-menu">
-            <p class="hamburger_description">MENU</p>
-            <div class="hamburger"></div>
-            <ul class="menu">
-                <div class="arrow_up"></div>
-                <li><a href="./index.html">DOMŮ</a></li>
-                <li><a class="active" href="./index.html#services">SLUŽBY</a></li>
-                <li><a href="./reference.html">REFERENCE</a></li>
-                <li><a href="./onas.html">O NÁS</a></li>
-                <li><a href="./kontakt.html">KONTAKT</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="page_header page_header--notmobile"></div>
-
-    <div class="aboutus">
-        <div class="aboutus__content">
-            <h2>Novostavby</h2>
-            <p>
-                Dle požadavků investora jsme schopní dodat <b>kompletní stavbu na klíč</b>, případně zhotovit ucelenou část. Jsme schopni zajistit také <b>projektovou dokumentaci</b>. Provádíme <b>stavby jak průmyslového typu</b>, tak <b>rodinné stavby</b>. Stavba je prováděna dle projektové dokumentace dodané investorem 
-                a v rozsahu dle smlouvy o dílo, která obsahuje jasně definované ceny dle položkového rozpočtu.
-            </p>
-
-            <ul>
-                <li>zemní práce</li>
-                <li>základové konstrukce</li>
-                <li>zděné konstrukce</li>
-                <li>montované konstrukce</li>
-                <li>úpravy povrchů</li>
-                <li>střešní konstrukce</li>
-            </ul>
-        </div>
+        <footer class="footer">
+            <p class="text--white text--s1 text--bold">Plácneme si pro Váš projekt?</p>
+            <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+            <a href="./kontakt.html" class="btn btn--light">Nezávazně poptat</a>
+        </footer>
     </div>
-  
-
-    <footer class="footer">
-        <h2>Plácneme si pro váš projekt?</h2>
-        <p>Nezávazně nás kontaktujte a domluvme vše potřebné</p>
-        <a href="./kontakt.html" class="button button--white button--footer button--hover">Nezávazně poptat</a>
-    </footer>
+    <script src="./media/js/main.js"></script>
 </body>
 </html>

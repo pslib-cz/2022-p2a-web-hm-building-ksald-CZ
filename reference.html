@@ -4,82 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleSheet" href="./media/css/normalize.css">
-    <link rel="stylesheet" href="./media/css/main.css">
-    <link rel="stylesheet" href="./media/css/media_photos.css">
-    <link rel="stylesheet" href="./media/css/media_navbar.css">
-    <link rel="stylesheet" href="./media/css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>HM Building</title>
+    <link href="./media/css/style.css" rel="stylesheet">
+    <title>HM Building | Reference</title>
 </head>
-<body> 
-    <header class="header">
-        <div class="logo">
-            <a href="./index.html">
-                <img src="./media/img/logo.png" alt="logo">
-            </a>
+<body>
+    <div class="page">
+        <div>
+            <header class="header header--low">
+                <nav class="navbar">
+                    <a href="./index.html">
+                        <img width="143" height="50" src="./nedia/img/logo.png">
+                    </a>
+                    <div class="hamburger">
+                        <span>MENU</span>
+                        <img width="47" height="35" src="./media/img/lines.svg">
+                    </div>
+                    <menu class="navbar__menu">
+                        <li class="nav__item"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
+                        <li class="nav__item"><a class="nav__item__link" href="./index.html#sluzby">SLUŽBY</a></li>
+                        <li class="nav__item nav__item--active"><a class="nav__item__link" href="#">REFERENCE</a></li>
+                        <li class="nav__item"><a class="nav__item__link" href="./onas.html">O NÁS</a></li>
+                        <li class="nav__item"><a class="nav__item__link" href="./kontakt.html">KONTAKT</a></li>
+                    </menu>
+                </nav>
+            </header>
+            <div class="section">
+                <header class="section__header">
+                    <h1 class="section__title text--bold">Reference</h1>
+                    <p class="section__description">Stojí za námi <span class="text--bold">kvalitně vyhotovené zakázky</span> dle konkrétních požadavků zadavatelů <span class="text--bold">podepřené letitými zkušenostmi ve stavebnictví</span>. To, že <span class="text--bold">obrátit se na právě nás je vhodná volba potvrdí naši klienti</span>, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nestydíme.</p>
+                </header>
+                <div class="reference">
+                    <a class="reference__item reference__item--hasicska-zbrojnice" href="hasicskazbrojnice.html">
+                        <div class="reference__img-wrapper">
+                            <img class="img reference__img" src="./media/img/reference/reference-hasicska-zbrojnice-600w.jpg" alt="hasicska-zbrojnice" width="482" height="300">
+                        </div>
+                        <div class="reference__description">
+                            <h2 class="reference__title">Hasičská zbrojnice</h2>
+                            <p class="text--s4">celková rekonstrukce</p>
+                        </div>
+                    </a>
+                    <a class="reference__item reference__item--samoobsluzna-pradelna" href="./pradelna.html">
+                        <div class="reference__img-wrapper">
+                            <img class="img reference__item__img" src="./media/img/reference/reference-pradelna-600w.jpg" alt="samoobsluzna-pradelna" width="482" height="300">
+                        </div>
+                        <div class="reference__description">
+                            <h2 class="reference__title">Samoobslužná prádelna</h2>
+                            <p class="text--s4">stavební úpravy a opravy</p>
+                        </div>
+                    </a>
+                    <a class="reference__item reference__item--venkovni-plochy-restyl" href="venkovniplochy.html">
+                        <div class="reference__img-wrapper">
+                            <img class="img reference__item__img" src="./media/img/reference/reference-plocha-600w.jpg" alt="venkovni-plochy-restyl" width="482" height="300">
+                        </div>
+                        <div class="reference__description">
+                            <h2 class="reference__title">Venkovní plochy Restyl</h2>
+                            <p class="text--s4">provedení venkovnách ploch</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-
-        <nav class="navigation">
-            <input type="checkbox" class="toggle-menu">
-            <p class="hamburger_description">MENU</p>
-            <div class="hamburger"></div>
-            <ul class="menu">
-                <div class="arrow_up"></div>
-                <li><a href="./index.html">DOMŮ</a></li>
-                <li><a href="./index.html#services">SLUŽBY</a></li>
-                <li><a class="active" href="./reference.html">REFERENCE</a></li>
-                <li><a href="./onas.html">O NÁS</a></li>
-                <li><a href="./kontakt.html">KONTAKT</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="page_header page_header--notmobile"></div>
-
-    <div class="reference" id="reference">
-        <div class="reference__item reference__item--header">
-            <h2>Reference</h2>
-            <p>Stojí za námi <b>kvalitně vyhotovené zakázky</b> dle konkrétních požadavků zadavatelů <b>podepřené letitými zkušenostmi ve stavebnictví.</b> To, že <b>obrátit se na právě nás je vhodná volba potvrdí naši klienti</b>, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nestydíme.</p>
-        </div>
-
-        <a href="./hasicskazbrojnice.html">
-            <div class="reference__item">
-                <img class="item__image" src="./media/img/reference-hasicska-zbrojnice-600w.jpg" alt="Hasičárna">
-                <div class="overlay">
-                    <h3 class="overlay__text--h3">Hasičská zbrojnice</h3>
-                    <p class="overlay__text--p">celková konstrukce</p>
-                </div>
-            </div>
-        </a>
-        
-        <a href="./pradelna.html">
-            <div class="reference__item">
-                <img class="item__image" src="./media/img/reference-pradelna-600w.jpg" alt="Prádelna">
-                <div class="overlay">
-                    <h3 class="overlay__text--h3">Samoobslužná prádelna</h3>
-                    <p class="overlay__text--p">stavební úpravy a opravy</p>
-                </div>
-            </div>
-        </a>
-
-        <a href="./venkovniplochy.html">
-            <div class="reference__item">
-                <img class="item__image" src="./media/img/reference-plocha-600w.jpg" alt="Dlažba">
-                <div class="overlay">
-                    <h3 class="overlay__text--h3">Venkovní plochy Restyl</h3>
-                    <p class="overlay__text--p">provedení venkovních ploch</p>
-                </div>
-            </div>
-        </a>
+        <footer class="footer">
+            <p class="text--white text--s1 text--bold">Plácneme si pro Váš projekt?</p>
+            <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+            <a href="./kontakt.html" class="btn btn--light">Nezávazně poptat</a>
+        </footer>
     </div>
-  
-
-    <footer class="footer">
-        <h2>Plácneme si pro váš projekt?</h2>
-        <p>Nezávazně nás kontaktujte a domluvme vše potřebné</p>
-        <a href="./kontakt.html" class="button button--white button--footer button--hover">Nezávazně poptat</a>
-    </footer>
-    
+    <script src="./media/js/main.js"></script>
 </body>
 </html>

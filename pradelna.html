@@ -4,66 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleSheet" href="./media/css/nomalize.css">
-    <link rel="stylesheet" href="./media/css/main.css">
-    <link rel="stylesheet" href="./media/css/media_photos.css">
-    <link rel="stylesheet" href="./media/css/media_navbar.css">
-    <link rel="stylesheet" href="./media/css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>HM Building</title>
+    <link href="./media/css/style.css" rel="stylesheet">
+    <title>HM Building | Samoobslužná prádelna</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
+    <header class="header header--low">
+        <nav class="navbar">
             <a href="./index.html">
-                <img src="./media/img/logo.png" alt="">
+                <img width="143" height="50" src="./media/img/logo.png">
             </a>
-        </div>
-    
-        <nav class="navigation">
-            <input type="checkbox" class="toggle-menu">
-            <p class="hamburger_description">MENU</p>
-            <div class="hamburger"></div>
-            <ul class="menu">
-                <div class="arrow_up"></div>
-                <li><a href="./index.html">DOMŮ</a></li>
-                <li><a href="./index.html#services">SLUŽBY</a></li>
-                <li><a class="active" href="./reference.html">REFERENCE</a></li>
-                <li><a href="./onas.html">O NÁS</a></li>
-                <li><a href="./kontakt.html">KONTAKT</a></li>
-              </ul>
+            <div class="hamburger">
+                <span>MENU</span>
+                <img width="47" height="35" src="./media/img/lines.svg">
+            </div>
+            <menu class="navbar__menu">
+                <li class="nav__item"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./index.html#sluzby">SLUŽBY</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__item__link" href="./reference.html">REFERENCE</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./onas.html">O NÁS</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./kontakt.html">KONTAKT</a></li>
+            </menu>
         </nav>
     </header>
-    
-        <div class="page_header page_header--notmobile"></div>
-    
-        <div class="gallery">
-            <h2>Samoobslužná prádelna</h2>
-            <p>Stavební úpravy a opravy v rámci zřízení Samoobslužné prádelný v Liberci.</p>
-            <div class="gallery__grid">
-                <figure class="gallery__item gallery__item--1">
-                    <img src="./media/img/reference/pradelna/reference-pradelna-01.jpeg" class="gallery__img" alt="Image 1">
-                  </figure>
-                  <figure class="gallery__item gallery__item--2">
-                    <img src="./media/img/reference/pradelna/reference-pradelna-02.jpeg" class="gallery__img" alt="Image 2">
-                  </figure>
-                  <figure class="gallery__item gallery__item--3">
-                    <img src="./media/img/reference/pradelna/reference-pradelna-03.jpeg" class="gallery__img" alt="Image 3">
-                  </figure>
-                  <figure class="gallery__item gallery__item--4">
-                    <img src="./media/img/reference/pradelna/reference-pradelna-04.jpeg" class="gallery__img" alt="Image 4">
-                  </figure>
-                  <figure class="gallery__item gallery__item--5">
-                    <img src="./media/img/reference/pradelna/reference-pradelna-05.jpeg" class="gallery__img" alt="Image 5">
-                  </figure>
-            </div>
-        </div>
-      
-    
-        <footer class="footer">
-            <h2>Plácneme si pro váš projekt?</h2>
-            <p>Nezávazně nás kontaktujte a domluvme vše potřebné</p>
-            <a href="./kontakt.html" class="button button--white button--footer button--hover">Nezávazně poptat</a>
-        </footer>
+    <section class="section">
+      <div class="section__header">
+        <h1 class="section__title">Samoobslužná prádelna</h1>
+        <p class="section__description">Stavební úpravy a opravy v rámci zřízení samoobslužné prádelny v Liberci.</p>
+      </div>
+      <div class="gallery">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/pradelna/reference-pradelna-01.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/pradelna/reference-pradelna-02.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/pradelna/reference-pradelna-03.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/pradelna/reference-pradelna-04.jpeg">
+        <img width="614" height="932" class="img gallery__item row--3" src="./media/img/reference/pradelna/reference-pradelna-05.jpeg">
+      </div>
+    </section>
+    <footer class="footer">
+        <p class="text--white text--s1 text--bold">Plácneme si pro Váš projekt?</p>
+        <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <a href="./kontakt.html" class="btn btn--light">Nezávazně poptat</a>
+    </footer>
+    <script src="./media/js/main.js"></script>
 </body>
 </html>
