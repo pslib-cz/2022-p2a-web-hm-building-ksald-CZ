@@ -4,105 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styleSheet" href="./media/css/nomalize.css">
-    <link rel="stylesheet" href="./media/css/main.css">
-    <link rel="stylesheet" href="./media/css/media_photos.css">
-    <link rel="stylesheet" href="./media/css/media_navbar.css">
-    <link rel="stylesheet" href="./media/css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>HM Building</title>
+    <link href="./media/css/style.css" rel="stylesheet">
+    <title>HM Building | Hasičská zbrojnice</title>
 </head>
 <body>
-<header class="header">
-    <div class="logo">
-        <a href="./index.html">
-            <img src="./media/img/logo.png" alt="Logo">
-        </a>
-    </div>
-
-    <div class="navigation">
-        <input type="checkbox" class="toggle-menu">
-        <p class="hamburger_description">MENU</p>
-        <div class="hamburger"></div>
-        <ul class="menu">
-            <div class="arrow_up"></div>
-            <li><a href="./index.html">DOMŮ</a></li>
-            <li><a href="./index.html#services">SLUŽBY</a></li>
-            <li><a class="active" href="./reference.html">REFERENCE</a></li>
-            <li><a href="./onas.html">O NÁS</a></li>
-            <li><a href="./kontakt.html">KONTAKT</a></li>
-          </ul>
-    </div>
-</header>
-
-<div class="page_header page_header--notmobile"></div>
-
-    <div class="gallery">
-        <h2>Hasičská zbrojnice</h2>
-        <p>Celková rekonstrukce hasičské zbrojnice v Rynolticích.</p>
-        <div class="gallery__grid">
-            <figure class="gallery__item gallery__item--1">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-01.jpeg" class="gallery__img" alt="Image 1">
-              </figure>
-              <figure class="gallery__item gallery__item--2">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-02.jpeg" class="gallery__img" alt="Image 2">
-              </figure>
-              <figure class="gallery__item gallery__item--3">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-03.jpeg" class="gallery__img" alt="Image 3">
-              </figure>
-              <figure class="gallery__item gallery__item--4">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-04.jpeg" class="gallery__img" alt="Image 4">
-              </figure>
-              <figure class="gallery__item gallery__item--5">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-05.jpeg" class="gallery__img" alt="Image 5">
-              </figure>
-              <figure class="gallery__item gallery__item--6">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-06.jpeg" class="gallery__img" alt="Image 6">
-              </figure>
-              <figure class="gallery__item gallery__item--7">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-07.jpeg" class="gallery__img" alt="Image 7">
-              </figure>
-              <figure class="gallery__item gallery__item--8">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-08.jpeg" class="gallery__img" alt="Image 8">
-              </figure>
-              <figure class="gallery__item gallery__item--9">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-09.jpeg" class="gallery__img" alt="Image 9">
-              </figure>
-              <figure class="gallery__item gallery__item--10">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-10.jpeg" class="gallery__img" alt="Image 10">
-              </figure>
-              <figure class="gallery__item gallery__item--11">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-11.jpeg" class="gallery__img" alt="Image 11">
-              </figure>
-              <figure class="gallery__item gallery__item--12">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-12.jpeg" class="gallery__img" alt="Image 12">
-              </figure>
-              <figure class="gallery__item gallery__item--14">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-14.jpeg" class="gallery__img" alt="Image 14">
-              </figure>
-              <figure class="gallery__item gallery__item--15">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-15.jpeg" class="gallery__img" alt="Image 15">
-              </figure>
-              <figure class="gallery__item gallery__item--16">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-16.jpeg" class="gallery__img" alt="Image 16">
-              </figure>
-              <figure class="gallery__item gallery__item--17">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-17.jpeg" class="gallery__img" alt="Image 17">
-              </figure>
-              <figure class="gallery__item gallery__item--18">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-18.jpeg" class="gallery__img" alt="Image 18">
-              </figure>
-              <figure class="gallery__item gallery__item--19">
-                <img src="./media/img/reference/hasicska-zbrojnice/reference-hz-last.jpeg" class="gallery__img" alt="Image 19">
-              </figure>
-        </div>
-    </div>
-  
-
+    <header class="header header--low">
+        <nav class="navbar">
+            <a href="./index.html">
+                <img width="143" height="50" src="./media/img/logo.png">
+            </a>
+            <div class="hamburger">
+                <span>MENU</span>
+                <img width="47" height="35" src="./media/img/lines.svg">
+            </div>
+            <menu class="navbar__menu">
+                <li class="nav__item"><a class="nav__item__link" href="./index.html">DOMŮ</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./index.html#sluzby">SLUŽBY</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__item__link" href="./reference.html">REFERENCE</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./onas.html">O NÁS</a></li>
+                <li class="nav__item"><a class="nav__item__link" href="./kontakt.html">KONTAKT</a></li>
+            </menu>
+        </nav>
+    </header>
+    <section class="section">
+      <div class="section__header">
+        <h1 class="section__title">Hasičská zbrojnice</h1>
+        <p class="section__description">Celková rekonstrukce hasičské zbrojnice v Rynolticích.</p>    
+      </div>
+      <div class="gallery">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-01.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-02.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-03.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-04.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-05.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-06.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-07.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-08.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-09.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-10.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-11.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-12.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-14.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-15.jpeg">
+        <img width="614" height="300" class="img gallery__item row--2" src="./media/img/reference/hasicska-zbrojnice/reference-hz-16.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-17.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-18.jpeg">
+        <img width="614" height="300" class="img gallery__item" src="./media/img/reference/hasicska-zbrojnice/reference-hz-last.jpeg">
+      </div>
+    </section>
     <footer class="footer">
-        <h2>Plácneme si pro váš projekt?</h2>
-        <p>Nezávazně nás kontaktujte a domluvme vše potřebné</p>
-        <a href="./kontakt.html" class="button button--white button--footer button--hover">Nezávazně poptat</a>
+        <p class="text--white text--s1 text--bold">Plácneme si pro Váš projekt?</p>
+        <p class="text--white">Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <a href="./kontakt.html" class="btn btn--light">Nezávazně poptat</a>
     </footer>
+    <script src="./media/js/main.js"></script>
 </body>
 </html>
