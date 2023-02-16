@@ -1,7 +1,7 @@
 window.onclick = (event) => {
-    if (event.target.matches('.Navbar__Hamburger')) {
-        document.querySelector('.Navbar__Menu').classList.toggle("Visible");
+    if (event.target.matches('.hamburger')) {
+        document.querySelector('.navbar__menu').classList.toggle("visible");
     } else {
-        document.querySelector('.Navbar__Menu').classList.remove("Visible");
+        document.querySelector('.navbar__menu').classList.remove("visible");
     }
 }
