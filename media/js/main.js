@@ -1,7 +1,6 @@
-window.onclick = (event) => {
-    if (event.target.matches('.Navbar__Hamburger')) {
-        document.querySelector('.Navbar__Menu').classList.toggle("Visible");
-    } else {
-        document.querySelector('.Navbar__Menu').classList.remove("Visible");
-    }
-}
+const hamburgerMenu = document.querySelector('.hamburger');
+const menu = document.querySelector('menu');
+
+hamburgerMenu.addEventListener('click', () => {
+    menu.classList.toggle('visible');
+});
